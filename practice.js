@@ -191,6 +191,11 @@ console.log(invoker(add(num1, num2)));
 
 
 //////////////////PROBLEM 9////////////////////
+//There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
+//all within different scopes.
+//Given the functions and variables above, edit the arrays
+//below to contain only the appropriate variable names
+//as strings.
 
 let duck = "cute";
 
@@ -205,24 +210,21 @@ function pond() {
   let realDuck = "fluffy";
 }
 
-//There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
-//all within different scopes.
-//Given the functions and variables above, edit the arrays
-//below to contain only the appropriate variable names
-//as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-globalScope.filter
+let globalScope = ["duck"];
+
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-bathroomScope.filter
+let bathroomScope = ["sailorDuck", "rubberDuck"];
+
+
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-bathtubScope.filter
+let bathtubScope = ["rubberDuck"];
+
+
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-pondScope.filter
+let pondScope = ["realDuck"];
+
 
 
 
